@@ -340,6 +340,10 @@ footer>a {
     text-decoration: inherit
 }
 
+.nav {
+    padding: 0
+}
+
 .main>.main-left>.nav>.slide>a.menu.active,
 .main>.main-left>.nav>li {
     border-bottom: 1px solid #0f0e0a
@@ -382,7 +386,8 @@ h3 {
 }
 
 .main>.main-left>.nav>.slide>ul {
-    display: none
+    display: none;
+    padding: 0;
 }
 
 .main>.main-left>.nav>.slide>.menu {
